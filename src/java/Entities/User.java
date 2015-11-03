@@ -22,12 +22,13 @@ public class User implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String name;
-<<<<<<< HEAD
-    private int lol;
-=======
-    private String Password;
->>>>>>> origin/master
 
+    private int lol;
+
+    private String Password;
+
+
+    
     public int getId() {
         return id;
     }
