@@ -26,8 +26,13 @@ public class User implements Serializable {
     private int lol;
 
     private String Password;
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
 
 
+    
     public int getId() {
         return id;
     }
