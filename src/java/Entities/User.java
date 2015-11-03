@@ -27,10 +27,7 @@ public class User implements Serializable {
 
     private String Password;
 
-<<<<<<< HEAD
-=======
-    
->>>>>>> origin/master
+
     public int getId() {
         return id;
     }
