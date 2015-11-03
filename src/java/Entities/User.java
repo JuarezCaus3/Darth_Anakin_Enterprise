@@ -22,6 +22,7 @@ public class User implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String name;
+    private int lol;
 
     public int getId() {
         return id;
